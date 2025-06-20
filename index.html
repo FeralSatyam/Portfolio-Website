@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Rana</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚀%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <canvas id="networkCanvas"></canvas>
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Satyam Rana</span></h1>
+                <p class="hero-subtitle">
+                    <span id="typed-text">Student & Aspiring Developer</span>
+                    <span class="cursor">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="Satyam Rana_Resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/FeralSatyam" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/satyam-rana-896112292/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi! I'm Satyam Rana, a passionate 17-year-old learner focused on programming, AI, and problem-solving. I love exploring new technologies and creating innovative solutions.</p>
+                        <p>Currently pursuing Computer Science, I'm constantly driven by curiosity and embrace new challenges to stay ahead in the tech world.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>17</h3>
+                                <p>Years Old</p>
+                            </div>
+                            <div class="stat">
+                                <h3>6+</h3>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>Years Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        
+    <img src="https://i.ibb.co/qFWN5JK8/satyam.jpg" alt="Satyam Rana" class="profile-img">
+</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-tag">C</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">PHP</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-tag">HTML</div>
+                            <div class="skill-tag">CSS</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skills-list">
+                            <div class="skill-tag">React</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-tag">Git</div>
+                            <div class="skill-tag">GitHub</div>
+                            <div class="skill-tag">OOP</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/MxvqY7FZ/study-timer.png" alt="Study Timer">
+                        </div>
+                        <div class="project-content">
+                            <h3>Study Timer</h3>
+                            <p>Calm UI with a digital clock and stop watch with rain music.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/Study-Timer.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/JWR12wwd/todo.png" alt="Todo List App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Todo List App</h3>
+                            <p>Simple todo list app, where you can add, remove and move tasks.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/Todo-List-App.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/1tcHgpS3/caesar.png" alt="Caesar Cipher">
+                        </div>
+                        <div class="project-content">
+                            <h3>Caesar Cipher Implementation</h3>
+                            <p>Classic encryption algorithm implemented in C programming language.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C</span>
+                          </div>
+                            <a href="https://github.com/FeralSatyam/Caesar-Cipher-Implementation-in-C.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/fVrmRJxH/scrabble.png" alt="Scrabble Calculator">
+                        </div>
+                        <div class="project-content">
+                            <h3>Scrabble Word Score Calculator</h3>
+                            <p>Calculate word scores for the popular Scrabble board game.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/Scrabble-Word-Score-Calculator-C-Implementation-.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/qYv092N1/File-MIME-Type.png" alt="File MIME Type Checker">
+                        </div>
+                        <div class="project-content">
+                            <h3>File MIME Type Checker</h3>
+                            <p>Utility to identify file types based on their MIME signatures.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/File-MIME-Type-Checker.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/BHJ4JJn0/cash.png" alt="Greedy Algorithm">
+                        </div>
+                        <div class="project-content">
+                            <h3>Greedy Algorithm - Minimum Coins</h3>
+                            <p>Efficient algorithm to find minimum coins for making change.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/Greedy-Algorithm---Minimum-Coins-for-Change-C-Implementation-.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/LhtYqHst/tip.png" alt="Tip Calculator">
+                        </div>
+                        <div class="project-content">
+                            <h3>Tip Calculator</h3>
+                            <p>Simple and efficient tip calculator for restaurant bills.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C</span>
+                            </div>
+                            <a href="https://github.com/FeralSatyam/Tip-Calculator.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and innovation.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>satyam.rana.innovate@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+977 9761608902</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Kathmandu, Nepal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Satyam Rana. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/FeralSatyam" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/satyam-rana-896112292/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
